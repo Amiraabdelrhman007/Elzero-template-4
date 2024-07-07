@@ -1,0 +1,254 @@
+:root {
+    --main-transition: 0.6s;
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --red-color: #f44336;
+    --grean-color: green;
+    --gray-color: #888;
+    --blue-opacity: #0075ff54;
+    --orange-opacity: #f59e0b52;
+    --grean-opacity: #0080004a;
+    --red-opacity:#f443364d;
+}
+
+/* Start @media */
+@media (max-width:767px) {
+    .hide-mob {
+        display:none;
+
+    }
+    .grid-200 {
+        display: grid;
+        grid-template-columns:minmax(200px , 1fr);
+        gap: 10px;
+        justify-content: center;
+    }
+    .mob-c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .mob-none {
+        display: none;
+    }
+    .mob-col-c {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .text-c-mob {
+        text-align: center;
+    }
+}
+@media(min-width:768px) {
+    .grid-450 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+        gap: 20px;
+        justify-content: center; 
+    }
+    .grid-300 {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 20px;
+        justify-content: center;
+    }
+ }
+
+
+/* Start conpounant */
+.grid-250 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center; 
+}
+.grid-180 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    justify-content: center; 
+}
+/* .f-15 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+} */
+.f-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gap-15 {
+ gap: 15px;
+}
+
+.f-center {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.rad-45 {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    border: 1px solid white;
+}
+.rad-65 {
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    border: 2px solid white;
+}
+.rad-120 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.rad-8-white {
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 10px 10px 0 #ddd;
+}
+
+
+.but-link {
+    display: block;
+    color: white;
+    background-color: var(--blue-color);
+    padding: 5px 10px;
+    font-size: 19px;
+    border-radius: 6px;
+    width: fit-content;
+}
+.br-but {
+    border-bottom: 1px solid #ddd;
+}
+.br-top {
+    border-top: 1px solid #ddd;
+}
+
+/* Start position */
+.rel {
+    position: relative;
+}
+/* Start colors */
+.c-black {
+    color: black;
+}
+.bg-eee {
+    background-color: #eee;
+}
+.c-gray {
+    color: var(--gray-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.bg-orange {
+    background-color: var(--orange-color);
+}
+.bg-orange-tr {
+    background-color: var(--orange-opacity);
+}
+.c-blue {
+    color: var(--blue-color)
+}
+.bg-blue {
+    background-color: var(--blue-color);
+}
+.bg-blue-tr {
+    background-color: var(--blue-opacity);
+}
+.c-red {
+    color: red;
+}
+.bg-red {
+    background-color: var(--red-color);
+}
+.bg-red-tr {
+    background-color: var(--red-opacity);
+}
+.c-grean {
+    color: var(--grean-color);
+}
+.bg-grean {
+    background-color: var(--grean-color);
+}
+.bg-grean-tr {
+    background-color: var(--grean-opacity);
+}
+/* Start borders */
+.rad-8 {
+    border-radius: 8px;
+    border: 2px solid #f2f2f2;
+}
+/* width  */
+.c-80 {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* start padding */
+.p-20 {
+    padding: 20px;
+}
+.p-14{
+    padding: 14px;
+}
+.p-10 {
+    padding: 10px;
+}
+.p-5 {
+    padding: 5px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+
+/* Start margin */
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.m-10 {
+    margin: 10px;
+}
+.m-20 {
+    margin: 20px;
+}
+
+/* Start font */
+.fs-14 {
+    font-size: 14px;
+}
+
+.lh-16 {
+    line-height: 1.6;
+}
+
+.tc {
+    text-align: center;
+}
+.d-block {
+    display: block;
+}

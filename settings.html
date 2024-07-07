@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <link rel="stylesheet" href="css/framework.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="page">
+        <div class="sidebar">
+            <h3> Elzero</h3>
+            <ul>
+                <li> <a  href="index.html">
+                        <i class="fa-solid fa-gauge-simple-high"></i>
+                        <span class="hide-mob"> Dashboard</span>
+                    </a>
+                </li>
+                <li> <a class="active" href="settings.html">
+                        <i class="fa-solid fa-gear"></i>
+                        <span class="hide-mob"> Settings</span>
+                    </a>
+                </li>
+                <li> <a href="profile.html">
+                        <i class="fa-solid fa-user"></i>
+                        <span class="hide-mob"> Profile</span>
+                    </a>
+                </li>
+                <li> <a href="projects.html">
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <span class="hide-mob"> Projects</span>
+                    </a>
+                </li>
+                <li> <a href="courses.html">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <span class="hide-mob"> Courses</span>
+                    </a>
+                </li>
+                <li> <a href="friends.html">
+                        <i class="fa-solid fa-user-group"> </i>
+                        <span class="hide-mob"> Friends</span>
+                    </a>
+                </li>
+                <li> <a href="files.html">
+                        <i class="fa-solid fa-file"></i>
+                        <span class="hide-mob"> Files</span>
+                    </a>
+                </li>
+                <li> <a href="plans.html">
+                        <i class="fa-solid fa-globe"></i>
+                        <span class="hide-mob"> plans</span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="content">
+            <div class="head f-between">
+                <div class="search rel">
+                    <input type="search" name="Search" placeholder="Type A keyword">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass"></i> </a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-bell rel"></i>
+                    <img src="images/avater.jpeg" alt="person" class="rad-45">
+                </div>
+            </div>
+            <div class="dash">
+                <h2>Settings</h2>
+                <div class="prog-holder">
+                    <span style="width:29%"></span>
+                </div>
+            </div>
+            <!-- Start settings -->
+         
+             <div class="settings grid-450 grid-200 m-20">
+               <div class="control rad-8-white p-10">
+                <h2> Site control</h2>
+                <p> controlt the Website if thier is maintenance</p>
+                <div class="controler f-between ">
+                    <div class="words">
+                      <h4> Website control</h4>
+                      <p> Open / Close website and type the reasone</p>
+                    </div>
+                    <label >
+                        <input class="toggle-checkbox" type="checkbox" checked>
+                        <div class="toggle-swich"> </div>
+                      </label>
+                </div>
+                <input class="problem" type="text" placeholder="close massage content">
+               </div> 
+               <div class=" general rad-8-white p-10">
+                <h2> General information </h2>
+                <p> general information about your acount </p>
+              <div class="my-form">
+                    <label for="first-name"> First name</label>
+                    <input type="text" name="first-name" id=" first-name" placeholder="Your First name">
+                    <label for="last-name"> last name</label>
+                    <input type="text" name="last-name" id=" last-name" placeholder="Your last name">
+                  <form >
+                     <label for="email"> your email</label>
+                     <input type="email" name="email" id=" email" placeholder="Your Email" disabled value="osama@gmail.com"> 
+                     <a href="#">Change </a>
+                  </form>
+              </div>
+               </div>
+               <div class="security rad-8-white p-10">
+                <h2>security information</h2>
+                <p> security information about your acount </p>
+                <div class="sec f-between p-10 br-but" >
+                    <div class="words">
+                        <h4> password  </h4>
+                        <p class="mt-5 fs-14">Last Change on 25/10/2021</p>
+                    </div>
+                    <a class="but-link fs-14" href="#"> Change</a>
+                </div>
+                <div class="autintic f-between p-10 br-but" >
+                    <div class="words">
+                        <h4> Two Factor Autintication </h4>
+                        <p class="mt-5 fs-14">Enabel / Disable The Feature</p>
+                    </div>
+                    <label >
+                        <input class="toggle-checkbox" type="checkbox" checked>
+                        <div class="toggle-swich"> </div>
+                      </label>
+                </div>
+                <div class="device f-between p-10 " >
+                    <div class="words">
+                        <h4>Devices </h4>
+                        <p class="mt-5 fs-14"> check The logic device list</p>
+                    </div>
+                    <a  href="#" class="but-link fs-14"> Devices </a>
+                </div>
+               
+               </div>
+               <div class="social rad-8-white p-10">
+                <h2> Social information</h2>
+                <p>   Social media information</p>
+                <div class="box  f-between"> 
+                    <i class="fa-brands fa-twitter fa-2x c-gray "></i>
+                     <input type="text" placeholder="twitter Username" class="p-10"> 
+                </div>
+                <div class="box f-between "> 
+                    <i class="fa-brands fa-facebook fa-2x c-gray"></i>
+                    <input type="text" placeholder="facbook Username " class="p-10"> 
+                 </div>
+                 <div class=" box f-between"> 
+                   <i class="fa-brands fa-linkedin fa-2x c-gray"></i>
+                   <input type="text" placeholder="linkedin Username" class="p-10"> 
+                </div>
+                 <div class="box  f-between"> 
+                    <i class="fa-brands fa-youtube fa-2x c-gray"></i>
+                    <input type="text" placeholder="youtube Username" class="p-10"> 
+                 </div>
+               </div>
+               <div class="widgets rad-8-white p-10">
+                <h2> Widgets control</h2>
+                <p> Show / hide Widgets</p>
+                <div class="check">
+                    <input type="checkbox" name="" id="draft">
+                    <label for="draft"> Quick Draft</label>
+                </div>
+                <div class="check mt-10">
+                    <input type="checkbox" name="" id="targets" checked>
+                    <label for="targets">Yearly Targets</label>
+                </div>
+                <div class="check mt-10">
+                    <input type="checkbox" name="" id="stats" checked>
+                    <label for="stats"> Tickets staticsics</label>
+                </div>
+                <div class="check mt-10">
+                    <input type="checkbox" name="" id="news">
+                    <label for="news">Latest News</label>
+                </div>
+                <div class="check mt-10">
+                    <input type="checkbox" name="" id="Tasks">
+                    <label for="Tasks"> Latest Tasks</label>
+                </div>
+                <div class="check mt-10">
+                    <input type="checkbox" name="" id="search" checked>
+                    <label for="search"> Top Search Items</label>
+                </div>
+           
+               </div>
+               <div class="backup rad-8-white p-10">
+                <h2> Backup Manager</h2>
+                <p> control backup time and location</p>
+                <div class="check  p-5">
+                    <input type="radio" name="Daily" id="day" checked>
+                    <label for="day">Daily</label>
+                </div>
+                <div class="check  p-5">
+                    <input type="radio" name="Weekly" id="week">
+                    <label for="week"> Weekly</label>
+                </div>
+                <div class="check p-5">
+                    <input type="radio" name="Monthly" id="month">
+                    <label for="month"> Monthly</label>
+                </div>
+                <div class=" serviece mt-20 f-15 p-20">
+                   <div class="serv">
+                    <input type="radio" name="megaman" id="megaman">
+                    <div class="box">
+                         <label for="megaman">  <i class="fa-solid fa-server"></i>  Megaman</label>
+                    </div>
+                   </div>
+                   <div class="serv">
+                    <input type="radio" name="zero" id="zero" checked>
+                    <div class="box">
+                         <label for="zero"><i class="fa-solid fa-server"></i> Zero </label>
+                    </div>
+                   </div>
+                   <div class="serv">
+                    <input type="radio" name="segam" id="segma">
+                    <div class="box">
+                            <label for="segma"> <i class="fa-solid fa-server"></i>  Segma</label>
+                    </div>
+                   </div>
+
+                </div>
+               </div>
+             
+             </div>
+
+            
+        </div>
+    </div>
+</body>
+
+</html>
